@@ -5,6 +5,7 @@
 //  Created by Jonathan Cesari on 2/7/25.
 //
 
+// Enums for helping establish value and suite of our cards.
 enum Suite: Int{
     case hearts = 1
     case diamonds, spades, clubs
@@ -22,6 +23,7 @@ enum Suite: Int{
         }
     }
 }
+
 enum Rank: Int{
     case ace = 1
     case two, three, four, five, six, seven, eight, nine, ten
@@ -59,6 +61,7 @@ enum Rank: Int{
     }
 }
 
+// Represents our card.
 struct Card {
     let rank:Rank
     let suite:Suite
@@ -67,4 +70,8 @@ struct Card {
     func nameOfCard() -> String{
         return "\(rank.simpleDescription()) of \(suite.simpleDescription())"
     }
+    
+//    func setPlayer (_ player:Player){
+//        self.player = player
+//    }
 }

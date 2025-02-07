@@ -3,9 +3,7 @@
 //  CardGames
 //
 //  Created by Jonathan Cesari on 2/7/25.
-//
 
-import Foundation
+var PlayerOne = Player(name: "Player One")
 
-print("Hello, World!")
-
+PlayerOne.peakPlayerHand()

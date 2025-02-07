@@ -12,3 +12,5 @@ All cards NOT on a player or in play, should have player marked as Nil.
 All cards that are taken by a player, should have their name marked on the card instance. 
 
 Nil  -- Represents a card that has no one currently holding it. Use take/return card functions to ensure this. 
+
+I am working on more encapsulation to ensure data integrity. 

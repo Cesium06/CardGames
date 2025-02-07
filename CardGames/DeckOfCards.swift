@@ -6,7 +6,10 @@
 //
 
 /*
- Basically, this is going to manage the cards in play in our game. Cards are not removed if they're assigned to a user's deck. The card class includes a Player variable that manages if it's assigned to a Player or not (Nil). If a card in this deck is Nil then it is available to be used.
+ Basically, this is going to manage the cards in play in our game. 
+Cards are not removed if they're assigned to a user's deck. 
+The card class includes a Player variable that manages if it's assigned to a Player or not (Nil). 
+If a card in this deck is Nil then it is available to be used.
  */
  
 
